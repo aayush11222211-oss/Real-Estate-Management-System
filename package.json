@@ -1,0 +1,15 @@
+{
+  "name": "rental-property-project",
+  "version": "1.0.0",
+  "description": "Simple and User-Friendly Rental Property Listing Website built with React, Node.js, Express & MongoDB",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm run server\" \"npm run client\"",
+    "build": "npm --prefix client run build",
+    "start": "node server/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

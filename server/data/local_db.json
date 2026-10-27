@@ -1,0 +1,268 @@
+{
+  "users": [
+    {
+      "_id": "661a1a1a1a1a1a1a1a1a1a01",
+      "name": "Rajesh Sharma (Apex Realty)",
+      "email": "retailer@example.com",
+      "password": "$2a$10$RRv8D0rLsM5h8SFvXlJ0ruzmQCbFXVMQ9pNHg62GymtOkFKHCF9jK",
+      "phone": "9876543210",
+      "role": "retailer",
+      "createdAt": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "_id": "661a1a1a1a1a1a1a1a1a1a02",
+      "name": "Priya Patel",
+      "email": "user@example.com",
+      "password": "$2a$10$RRv8D0rLsM5h8SFvXlJ0ruzmQCbFXVMQ9pNHg62GymtOkFKHCF9jK",
+      "phone": "9811122334",
+      "role": "tenant",
+      "createdAt": "2026-01-12T11:00:00.000Z"
+    },
+    {
+      "_id": "user_1792342898661nmftw",
+      "name": "aaaaaaaa",
+      "email": "aayush11@gmail.com",
+      "password": "$2a$10$EvkJdWpOMUN3cD2NyT/xfOZwwpsmB7K14mTqjFW4jGTmpmLBkejP.",
+      "phone": "9903029500",
+      "role": "tenant",
+      "createdAt": "2026-10-18T17:01:38.661Z"
+    },
+    {
+      "_id": "user_1792343468852mijx2",
+      "name": "oiuyg",
+      "email": "aayush1189@gmail.com",
+      "password": "$2a$10$bCTQ1EouTiMZCbXqhdCSBuhxjICY6GiENUdLS8P9X2QgQ01gFOSwi",
+      "phone": "678905678",
+      "role": "tenant",
+      "createdAt": "2026-10-18T17:11:08.852Z"
+    },
+    {
+      "_id": "user_1792344241136ocfsh",
+      "name": "Valid Phone User",
+      "email": "validphone@test.com",
+      "password": "$2a$10$gWDeZ6571CBCz6dG9MRY9eJnnl4ye518YvQgmgc81RDdS1lDdb/aC",
+      "phone": "9123456789",
+      "role": "tenant",
+      "createdAt": "2026-10-18T17:24:01.136Z"
+    }
+  ],
+  "properties": [
+    {
+      "_id": "662b2b2b2b2b2b2b2b2b2b01",
+      "title": "Skyline Luxury 3BHK Apartment with Sea View",
+      "propertyType": "Apartment",
+      "location": "Carter Road, Bandra West",
+      "city": "Mumbai",
+      "rent": 65000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnishing": "Furnished",
+      "phone": "9876543210",
+      "imageUrl": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1000&q=80",
+      "description": "Stunning high-floor 3 BHK apartment featuring designer Italian marble flooring, panoramic Arabian Sea views, modular kitchen with dishwasher, premium wooden wardrobes, and central AC.",
+      "amenities": [
+        "24/7 Security",
+        "Swimming Pool",
+        "Gymnasium",
+        "Covered Car Parking",
+        "Power Backup",
+        "Sea View Balcony"
+      ],
+      "owner": "661a1a1a1a1a1a1a1a1a1a01",
+      "ownerName": "Rajesh Sharma (Apex Realty)",
+      "createdAt": "2026-02-01T08:00:00.000Z"
+    },
+    {
+      "_id": "662b2b2b2b2b2b2b2b2b2b02",
+      "title": "Serene 4BHK Independent Villa with Private Garden",
+      "propertyType": "House",
+      "location": "100ft Road, Indiranagar",
+      "city": "Bengaluru",
+      "rent": 85000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "furnishing": "Semi-Furnished",
+      "phone": "9876543210",
+      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+      "description": "Spacious independent luxury duplex bungalow nestled in leafy Indiranagar. Includes a private landscaped lawn, servant quarters, automated gate, rooftop terrace, and solar water heater.",
+      "amenities": [
+        "Private Garden",
+        "2 Car Parking",
+        "Solar Water Heater",
+        "CCTV Cameras",
+        "Rooftop Terrace",
+        "Pet Friendly"
+      ],
+      "owner": "661a1a1a1a1a1a1a1a1a1a01",
+      "ownerName": "Rajesh Sharma (Apex Realty)",
+      "createdAt": "2026-02-05T09:30:00.000Z"
+    },
+    {
+      "_id": "662b2b2b2b2b2b2b2b2b2b03",
+      "title": "Cozy Modern 2BHK Flat near Metro Station",
+      "propertyType": "Flat",
+      "location": "Green Park Extension",
+      "city": "New Delhi",
+      "rent": 32000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "furnishing": "Furnished",
+      "phone": "9876543210",
+      "imageUrl": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1000&q=80",
+      "description": "Bright and airy 2BHK flat just 300 meters from the Yellow Line metro station. Fully furnished with smart LED TV, sofa set, king-size beds, microwave, and high-speed fiber internet.",
+      "amenities": [
+        "Near Metro Station",
+        "High-Speed Wi-Fi",
+        "24/7 Water",
+        "Lift Access",
+        "Modular Kitchen"
+      ],
+      "owner": "661a1a1a1a1a1a1a1a1a1a01",
+      "ownerName": "Rajesh Sharma (Apex Realty)",
+      "createdAt": "2026-02-08T14:15:00.000Z"
+    },
+    {
+      "_id": "662b2b2b2b2b2b2b2b2b2b04",
+      "title": "Modern High-Rise 2BHK Apartment with Balcony",
+      "propertyType": "Apartment",
+      "location": "Hiranandani Gardens, Powai",
+      "city": "Mumbai",
+      "rent": 48000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "furnishing": "Semi-Furnished",
+      "phone": "9876543210",
+      "imageUrl": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1000&q=80",
+      "description": "Neoclassical architecture high-rise 2BHK apartment in Powai with scenic lake view, built-in kitchen cabinets, piped gas connection, gated township amenities, and clubhouse.",
+      "amenities": [
+        "Clubhouse",
+        "Lake View",
+        "Piped Gas",
+        "Children Play Area",
+        "Visitor Parking",
+        "24/7 Security"
+      ],
+      "owner": "661a1a1a1a1a1a1a1a1a1a01",
+      "ownerName": "Rajesh Sharma (Apex Realty)",
+      "createdAt": "2026-02-12T10:00:00.000Z"
+    },
+    {
+      "_id": "662b2b2b2b2b2b2b2b2b2b05",
+      "title": "Affordable & Spacious 1BHK Flat for Professionals",
+      "propertyType": "Flat",
+      "location": "Koramangala 4th Block",
+      "city": "Bengaluru",
+      "rent": 21000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnishing": "Furnished",
+      "phone": "9876543210",
+      "imageUrl": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1000&q=80",
+      "description": "Ideal 1BHK home for working professionals and couples. Walking distance to popular cafes, tech hubs, and co-working spaces. Move-in ready with refrigerator, washing machine, and bed.",
+      "amenities": [
+        "Furnished",
+        "Water Purifier",
+        "Bike Parking",
+        "Balcony",
+        "Geyser"
+      ],
+      "owner": "661a1a1a1a1a1a1a1a1a1a01",
+      "ownerName": "Rajesh Sharma (Apex Realty)",
+      "createdAt": "2026-02-15T16:45:00.000Z"
+    },
+    {
+      "_id": "662b2b2b2b2b2b2b2b2b2b06",
+      "title": "Classic 3BHK Independent Floor House with Terrace",
+      "propertyType": "House",
+      "location": "Sector 57, Golf Course Ext Road",
+      "city": "Gurugram",
+      "rent": 42000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnishing": "Unfurnished",
+      "phone": "9876543210",
+      "imageUrl": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1000&q=80",
+      "description": "Brand new builder floor with spacious rooms, wide front balcony, full terrace access, reserved stilt parking, and peaceful residential neighborhood.",
+      "amenities": [
+        "Dedicated Terrace",
+        "Stilt Parking",
+        "Lift",
+        "Vastu Compliant",
+        "Wide Roads"
+      ],
+      "owner": "661a1a1a1a1a1a1a1a1a1a01",
+      "ownerName": "Rajesh Sharma (Apex Realty)",
+      "createdAt": "2026-02-18T11:20:00.000Z"
+    },
+    {
+      "_id": "662b2b2b2b2b2b2b2b2b2b07",
+      "title": "Contemporary Studio Flat in Tech Corridor",
+      "propertyType": "Flat",
+      "location": "Whitefield Main Road",
+      "city": "Bengaluru",
+      "rent": 18000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnishing": "Semi-Furnished",
+      "phone": "9876543210",
+      "imageUrl": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1000&q=80",
+      "description": "Compact, chic flat with modular wardrobe, kitchen counter, wooden flooring, and swift commute to ITPL and IT tech parks.",
+      "amenities": [
+        "Power Backup",
+        "Security Guard",
+        "Two-wheeler Parking",
+        "Elevator"
+      ],
+      "owner": "661a1a1a1a1a1a1a1a1a1a01",
+      "ownerName": "Rajesh Sharma (Apex Realty)",
+      "createdAt": "2026-02-22T13:10:00.000Z"
+    },
+    {
+      "_id": "662b2b2b2b2b2b2b2b2b2b08",
+      "title": "Premium 3BHK Gated Community Apartment",
+      "propertyType": "Apartment",
+      "location": "Gachibowli Financial District",
+      "city": "Hyderabad",
+      "rent": 38000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "furnishing": "Furnished",
+      "phone": "9876543210",
+      "imageUrl": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1000&q=80",
+      "description": "Lavish apartment inside prestigious gated enclave. Club house, tennis court, jogging track, supermarket inside premises, and 100% DG power backup.",
+      "amenities": [
+        "Clubhouse",
+        "Gym",
+        "Tennis Court",
+        "Supermarket Inside",
+        "24/7 Security"
+      ],
+      "owner": "661a1a1a1a1a1a1a1a1a1a01",
+      "ownerName": "Rajesh Sharma (Apex Realty)",
+      "createdAt": "2026-02-25T15:00:00.000Z"
+    },
+    {
+      "_id": "662b2b2b2b2b2b2b2b2b2b09",
+      "title": "Charming 2BHK Row House with Porch",
+      "propertyType": "House",
+      "location": "Kalyani Nagar",
+      "city": "Pune",
+      "rent": 35000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "furnishing": "Unfurnished",
+      "phone": "9876543210",
+      "imageUrl": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1000&q=80",
+      "description": "Peaceful row house surrounded by green trees in prime Kalyani Nagar. Spacious front porch, separate utility wash area, and private driveway.",
+      "amenities": [
+        "Front Porch",
+        "Private Parking",
+        "Quiet Neighborhood",
+        "24h Water"
+      ],
+      "owner": "661a1a1a1a1a1a1a1a1a1a01",
+      "ownerName": "Rajesh Sharma (Apex Realty)",
+      "createdAt": "2026-03-01T10:40:00.000Z"
+    }
+  ]
+}
