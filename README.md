@@ -44,7 +44,7 @@ This project connects tenants with property retailers/owners directly through ve
 
 ## 🚀 Quick Start Guide
 
-### 1. Prerequisites
+## 1. Prerequisites
 - **Node.js** (v18 or higher recommended)
 - **MongoDB** (Optional: local MongoDB or MongoDB Atlas URI. If not installed, the project automatically uses resilient local file storage so you can review it immediately!)
 
@@ -144,4 +144,3 @@ project fsd/
 │   └── .env                    # Config (PORT, MONGODB_URI, JWT_SECRET)
 ├── package.json                # Root scripts (npm run dev)
 └── README.md                   # Complete documentation
-```
